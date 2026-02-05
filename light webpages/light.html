@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Theme Switcher</title>
+  <link rel="stylesheet" href="light.css">
+</head>
+<body>
+
+  <h1>Theme Switcher</h1>
+
+  <form id="settingsForm">
+    <label>
+      Theme:
+      <select id="theme">
+        <option value="">Select theme</option>
+        <option value="light">Light</option>
+        <option value="dark">Dark</option>
+      </select>
+    </label>
+
+    <label>
+      Font Size (12-24px):
+      <input type="number" id="fontSize" min="12" max="24" value="16" />
+    </label>
+
+    <label>
+      Primary Color:
+      <input type="color" id="primaryColor" value="#007bff" />
+    </label>
+
+    <button type="submit">Apply Settings</button>
+
+    <div id="error" class="error"></div>
+  </form>
+
+  
+<script src="light.js"></script>
+</body>
+</html>
