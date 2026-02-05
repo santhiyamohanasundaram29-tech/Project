@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>book library👍</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <h1>Book library👨‍👩‍👧‍👦</h1>
+    </div>
+    <div class="contain">
+        <div class="book">
+            <h2>Rich dad poor dad</h2>
+            <h5>robert</h5>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, molestias quis. Voluptate, hic in quaerat explicabo cum quibusdam nihil blanditiis officia ut laboriosam consectetur a</p>
+            <button onclick="cleanbook(event)">Delete</button>
+        </div>
+    </div>
+    <div class="over"></div>
+    <div class="popup">
+    <h2>Add book</h2>
+    <form >
+        <input type="text" placeholder="book title" id="book-title">
+        <input type="text" placeholder="book author" id="book-author">
+        <textarea placeholder="description" id="short-message"></textarea>
+        <button id="addbook">add</button>
+        <button id="cancelbook">cancel</button>
+    </form>
+</div>
+    <button class="add" id="addpop">+</button>
+    <script src="script.js"></script>
+</body>
+</html>
